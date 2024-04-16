@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="103D3F9C-B75B-67E3-3B2D-B14DB383AD01" name="CLIENTES">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-25 12:24:46 UTC</createdTime>
+<ownerDesignName>exercicio06</ownerDesignName>
+<engineerTo>
+<item key="E6DC1571-D147-FD07-F38B-C57A73CEBD68" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="telefone" id="7AC469CF-52D8-85F7-35C7-E1733C95B879">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-25 12:28:32 UTC</createdTime>
+<ownerDesignName>exercicio06</ownerDesignName>
+<engineerTo>
+<item key="E6DC1571-D147-FD07-F38B-C57A73CEBD68" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pri_nome" id="C037D425-3468-2825-0586-072C86F3C0D2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-25 12:27:29 UTC</createdTime>
+<ownerDesignName>exercicio06</ownerDesignName>
+<engineerTo>
+<item key="E6DC1571-D147-FD07-F38B-C57A73CEBD68" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="meio_nome" id="2E99479D-A310-E8D4-99BE-EF118B6EE02E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-09 11:26:43 UTC</createdTime>
+<ownerDesignName>exercicio06</ownerDesignName>
+<engineerTo>
+<item key="E6DC1571-D147-FD07-F38B-C57A73CEBD68" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ult_nome" id="D59F79B4-F2F2-178E-41B0-85215D413AA0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-25 12:27:55 UTC</createdTime>
+<ownerDesignName>exercicio06</ownerDesignName>
+<engineerTo>
+<item key="E6DC1571-D147-FD07-F38B-C57A73CEBD68" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="095EDE2C-334E-D645-30A0-14B7BF39BB59">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-25 12:28:02 UTC</createdTime>
+<ownerDesignName>exercicio06</ownerDesignName>
+<engineerTo>
+<item key="E6DC1571-D147-FD07-F38B-C57A73CEBD68" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_endereco" id="D9A110AC-5ACF-0F0D-98ED-35FC7C0588A8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-09 12:07:43 UTC</createdTime>
+<ownerDesignName>exercicio06</ownerDesignName>
+<engineerTo>
+<item key="E6DC1571-D147-FD07-F38B-C57A73CEBD68" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ref_endereco" id="336DDAA8-F154-E940-63AB-BC012382F2B1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-25 12:28:15 UTC</createdTime>
+<ownerDesignName>exercicio06</ownerDesignName>
+<engineerTo>
+<item key="E6DC1571-D147-FD07-F38B-C57A73CEBD68" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complemento" id="8693DF0B-85A2-EDB5-9BB5-CE142BC6DF44">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-09 12:08:12 UTC</createdTime>
+<ownerDesignName>exercicio06</ownerDesignName>
+<engineerTo>
+<item key="E6DC1571-D147-FD07-F38B-C57A73CEBD68" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="28CFADBE-06AD-E18E-2172-5ED2F9CF1B44" name="CLIENTES PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-25 12:27:35 UTC</createdTime>
+<ownerDesignName>exercicio06</ownerDesignName>
+<engineerTo>
+<item key="E6DC1571-D147-FD07-F38B-C57A73CEBD68" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7AC469CF-52D8-85F7-35C7-E1733C95B879</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7D24D8F2-E13A-5179-EFA3-42603D9FBE59" name="MATRICULAS">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 11:29:10 UTC</createdTime>
+<ownerDesignName>normalizacao</ownerDesignName>
+<engineerTo>
+<item key="3066ACC5-02F8-A112-BBDD-4B68C49911E4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dt_matricula" id="A0444A77-2C0E-2A40-31F6-402C317D68DD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 12:06:29 UTC</createdTime>
+<ownerDesignName>normalizacao</ownerDesignName>
+<engineerTo>
+<item key="3066ACC5-02F8-A112-BBDD-4B68C49911E4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_formacao" id="A52D0D60-681E-916D-5072-BDF7DD6D9C0F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 12:06:49 UTC</createdTime>
+<ownerDesignName>normalizacao</ownerDesignName>
+<engineerTo>
+<item key="3066ACC5-02F8-A112-BBDD-4B68C49911E4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_curso" id="25BABEF8-7D91-43EA-1950-F95EB0B0133E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 11:36:12 UTC</createdTime>
+<generatorID>FA4F42BD-9E60-7EEE-D53F-9F777F244B32</generatorID>
+<ownerDesignName>normalizacao</ownerDesignName>
+<engineerTo>
+<item key="3066ACC5-02F8-A112-BBDD-4B68C49911E4" value="true"/>
+</engineerTo>
+<referedAttribute>7359CB3C-131D-E2AF-707C-EDBE9A5916C7</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_aluno" id="ADFDCBE4-BA08-3419-229A-BF0D426176AE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 11:36:56 UTC</createdTime>
+<generatorID>AFD037A4-4998-938A-2C3A-023B6480AF97</generatorID>
+<ownerDesignName>normalizacao</ownerDesignName>
+<engineerTo>
+<item key="3066ACC5-02F8-A112-BBDD-4B68C49911E4" value="true"/>
+</engineerTo>
+<referedAttribute>959E78FB-EBE4-1378-835E-66350F352777</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="29E3E3D3-4F2E-93B6-E6DF-82FF6AEF7D29" name="MATRICULA PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 11:36:12 UTC</createdTime>
+<ownerDesignName>normalizacao</ownerDesignName>
+<engineerTo>
+<item key="3066ACC5-02F8-A112-BBDD-4B68C49911E4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>25BABEF8-7D91-43EA-1950-F95EB0B0133E</attributeRef>
+<attributeRef>ADFDCBE4-BA08-3419-229A-BF0D426176AE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

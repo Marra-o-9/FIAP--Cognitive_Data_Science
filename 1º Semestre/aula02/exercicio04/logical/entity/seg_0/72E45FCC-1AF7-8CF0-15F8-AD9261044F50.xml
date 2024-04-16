@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="72E45FCC-1AF7-8CF0-15F8-AD9261044F50" name="CURSOS_REALIZADOS">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 11:34:12 UTC</createdTime>
+<ownerDesignName>exercicio04</ownerDesignName>
+<engineerTo>
+<item key="791AA058-45E9-AD41-598F-F9BD483B805B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_curso" id="AE2395B5-5B16-F5CD-6BEA-D2932997E359">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 11:44:50 UTC</createdTime>
+<ownerDesignName>exercicio04</ownerDesignName>
+<engineerTo>
+<item key="791AA058-45E9-AD41-598F-F9BD483B805B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="DE7984D4-8019-C0C1-2507-F04B6D2013EF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 11:45:06 UTC</createdTime>
+<ownerDesignName>exercicio04</ownerDesignName>
+<engineerTo>
+<item key="791AA058-45E9-AD41-598F-F9BD483B805B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9BCA3C62-FED6-C279-9638-D3A401B8B98E" name="CURSOS_REALIZADOS PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 11:44:57 UTC</createdTime>
+<ownerDesignName>exercicio04</ownerDesignName>
+<engineerTo>
+<item key="791AA058-45E9-AD41-598F-F9BD483B805B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AE2395B5-5B16-F5CD-6BEA-D2932997E359</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

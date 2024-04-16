@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C6E0C6AE-56F8-747B-89EE-BB80E2A70562" name="DEPARTAMENTOS">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 12:03:24 UTC</createdTime>
+<ownerDesignName>normalizacao</ownerDesignName>
+<engineerTo>
+<item key="3066ACC5-02F8-A112-BBDD-4B68C49911E4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_depto" id="894C5B9D-F70E-FAF9-E711-4E45E8CAEA4C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 12:03:38 UTC</createdTime>
+<ownerDesignName>normalizacao</ownerDesignName>
+<engineerTo>
+<item key="3066ACC5-02F8-A112-BBDD-4B68C49911E4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="619374D4-60AF-BA19-B5B5-7F66AA6DD4E9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 12:04:00 UTC</createdTime>
+<ownerDesignName>normalizacao</ownerDesignName>
+<engineerTo>
+<item key="3066ACC5-02F8-A112-BBDD-4B68C49911E4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A263A4D3-E5A1-D92B-60C1-4BE8909A3430" name="DEPARTAMENTOS PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 12:03:57 UTC</createdTime>
+<ownerDesignName>normalizacao</ownerDesignName>
+<engineerTo>
+<item key="3066ACC5-02F8-A112-BBDD-4B68C49911E4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>894C5B9D-F70E-FAF9-E711-4E45E8CAEA4C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

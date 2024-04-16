@@ -1,0 +1,80 @@
+DROP TABLE employees CASCADE CONSTRAINTS PURGE;
+CREATE TABLE employees (
+    employee_id    NUMBER(6)     CONSTRAINT EMP_EMP_ID       PRIMARY KEY,
+    first_name     VARCHAR2(20),
+    last_name      VARCHAR2(25)  CONSTRAINT emp_last_name_nn NOT NULL,
+    email          VARCHAR2(25)  CONSTRAINT emp_email_nn     NOT NULL,
+    phone_number   VARCHAR2(20),
+    hire_date      DATE          CONSTRAINT emp_hire_date_nn NOT NULL,
+    job_id         VARCHAR2(10)  CONSTRAINT emp_job_nn       NOT NULL,
+    salary         NUMBER(8, 2),
+    commission_pct NUMBER(2, 2),
+    manager_id     NUMBER(6),
+    department_id  NUMBER(4),
+    CONSTRAINT emp_salary_min CHECK ( salary > 0 ),
+    CONSTRAINT emp_email_uk UNIQUE ( email )
+);
+
+DROP TABLE employees CASCADE CONSTRAINTS PURGE;
+
+
+DROP TABLE regions CASCADE CONSTRAINTS PURGE;
+--CONSTRAINT PK NO NÍVEL DE COLUNA
+CREATE TABLE regions (
+    region_id   NUMBER CONSTRAINT reg_id_pk PRIMARY KEY,
+    region_name VARCHAR2(25)
+    );
+-----------------------------------------------------------------------------------
+DROP TABLE regions CASCADE CONSTRAINTS PURGE;
+--CONSTRAINT PK NO NÍVEL DE TABELA
+CREATE TABLE regions (
+    region_id   NUMBER ,
+    region_name VARCHAR2(25),
+    CONSTRAINT reg_id_pk PRIMARY KEY ( region_id )
+    );
+----------------------------------------------------------------------------------
+DROP TABLE regions CASCADE CONSTRAINTS PURGE;
+--CONSTRAINT PK APÓS A CRIAÇÃO DA TABELA (ALTER TABLE)
+CREATE TABLE regions (
+    region_id   NUMBER ,
+    region_name VARCHAR2(25)
+    );
+
+ALTER TABLE regions ADD (
+    CONSTRAINT reg_id_pk PRIMARY KEY ( region_id )
+    );
+    
+-----------------------------------------------------------------------------------
+
+
+DROP TABLE countries CASCADE CONSTRAINTS PURGE;
+--CONSTRAINT FK APÓS A CRIAÇÃO DA TABELA (ALTER TABLE)
+CREATE TABLE countries (
+    country_id   CHAR(2) CONSTRAINT country_c_id_pk PRIMARY KEY,
+    country_name VARCHAR2(40),
+    region_id    NUMBER);
+
+ALTER TABLE countries ADD (
+    CONSTRAINT countr_reg_fk FOREIGN KEY ( region_id )
+        REFERENCES regions 
+        );
+--------------------------------------------------------------------------------------
+DROP TABLE countries CASCADE CONSTRAINTS PURGE;
+--CONSTRAINT FK NO NÍVEL DE TABELA
+CREATE TABLE countries (
+    country_id   CHAR(2) CONSTRAINT country_c_id_pk PRIMARY KEY,
+    country_name VARCHAR2(40),
+    region_id    NUMBER,
+    CONSTRAINT countr_reg_fk FOREIGN KEY ( region_id )
+    REFERENCES regions ( region_id )
+    );
+--------------------------------------------------------------------------------------
+DROP TABLE countries CASCADE CONSTRAINTS PURGE;
+--CONSTRAINT FK NO NÍVEL DE COLUNA
+CREATE TABLE countries (
+    country_id   CHAR(2) CONSTRAINT country_c_id_pk PRIMARY KEY,
+    country_name VARCHAR2(40),
+    region_id    NUMBER CONSTRAINT countr_reg_fk  REFERENCES regions
+);
+
+

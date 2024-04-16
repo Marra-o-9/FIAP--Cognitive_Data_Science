@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C6B5566-09DC-FBD9-4DF1-0C84343DD260" name="ATIVIDADES">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 12:11:43 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="FF3D52FE-FF05-F680-B271-917F3E572230" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_atv" id="EC695D80-B6AE-FAB5-FFDD-0F430F4E33F7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 12:11:52 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="FF3D52FE-FF05-F680-B271-917F3E572230" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="EE255B5E-62D7-C050-B719-67534F915552">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 12:12:00 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="FF3D52FE-FF05-F680-B271-917F3E572230" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_fim" id="91887A30-205B-303E-874E-E15E646D2442">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 12:12:10 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="FF3D52FE-FF05-F680-B271-917F3E572230" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4FD00008-59C2-2E0A-618D-A2F5350C4FBD" name="ATIVIDADES PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 12:11:58 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="FF3D52FE-FF05-F680-B271-917F3E572230" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EC695D80-B6AE-FAB5-FFDD-0F430F4E33F7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

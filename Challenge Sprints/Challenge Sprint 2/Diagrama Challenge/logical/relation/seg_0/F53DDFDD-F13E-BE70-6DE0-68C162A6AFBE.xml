@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="F53DDFDD-F13E-BE70-6DE0-68C162A6AFBE">
+<createdBy>marra</createdBy>
+<createdTime>2023-06-26 23:03:30 UTC</createdTime>
+<ownerDesignName>Diagrama Challenge</ownerDesignName>
+<engineerTo>
+<item key="D578EA73-6587-C25B-19A4-A6A1D2623CBF" value="true"/>
+</engineerTo>
+<sourcePk>636A3934-E9DD-729E-4E37-CBE5B6580952</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CED16271-1CB2-C4C0-FCE6-BDE6211F990D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6E38F45A-47FD-B425-097B-93BFA5D0C46C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

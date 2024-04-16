@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E46BC14A-00BE-A1FE-BCBC-5C8758161B3A" name="DOACOES">
+<createdBy>marra</createdBy>
+<createdTime>2023-05-26 12:43:13 UTC</createdTime>
+<ownerDesignName>GS - Data Science</ownerDesignName>
+<engineerTo>
+<item key="B0077169-6643-432B-F209-C918C5DCCA2F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_doacao" id="12D7C1E7-02A2-D8D4-D7E3-9320C704C02B">
+<createdBy>marra</createdBy>
+<createdTime>2023-05-26 12:43:21 UTC</createdTime>
+<ownerDesignName>GS - Data Science</ownerDesignName>
+<engineerTo>
+<item key="B0077169-6643-432B-F209-C918C5DCCA2F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidade" id="2D1351FA-4A66-9E24-715C-634F0433FACA">
+<createdBy>marra</createdBy>
+<createdTime>2023-05-26 12:43:28 UTC</createdTime>
+<ownerDesignName>GS - Data Science</ownerDesignName>
+<engineerTo>
+<item key="B0077169-6643-432B-F209-C918C5DCCA2F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="9DD52E6E-6701-C543-CB33-5562EADB2B6F">
+<createdBy>marra</createdBy>
+<createdTime>2023-05-26 12:45:43 UTC</createdTime>
+<ownerDesignName>GS - Data Science</ownerDesignName>
+<engineerTo>
+<item key="B0077169-6643-432B-F209-C918C5DCCA2F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="local" id="54431B6C-F32F-8016-7A3B-2B3D9FC03A41">
+<createdBy>marra</createdBy>
+<createdTime>2023-05-26 12:45:46 UTC</createdTime>
+<ownerDesignName>GS - Data Science</ownerDesignName>
+<engineerTo>
+<item key="B0077169-6643-432B-F209-C918C5DCCA2F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_doador" id="53ACFA66-25B5-A124-85B0-C6F6D79D4342">
+<createdBy>marra</createdBy>
+<createdTime>2023-05-26 12:58:52 UTC</createdTime>
+<generatorID>4F41905B-C119-9F6C-97C7-97709FB81036</generatorID>
+<ownerDesignName>GS - Data Science</ownerDesignName>
+<engineerTo>
+<item key="B0077169-6643-432B-F209-C918C5DCCA2F" value="true"/>
+</engineerTo>
+<referedAttribute>45870FCF-C8A6-14FC-777F-536B17D61C4A</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produto" id="7B699109-C538-98F9-0684-08349FD5738C">
+<createdBy>marra</createdBy>
+<createdTime>2023-05-26 15:41:52 UTC</createdTime>
+<generatorID>047B7C56-4F43-BEA8-B651-1E747F33E0E2</generatorID>
+<ownerDesignName>GS - Data Science</ownerDesignName>
+<engineerTo>
+<item key="B0077169-6643-432B-F209-C918C5DCCA2F" value="true"/>
+</engineerTo>
+<referedAttribute>57E935C0-AFBE-8CCD-9836-1C166653E03B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9BBF3B0F-7359-0259-7693-8DD5FC46A595" name="DOACOES PK">
+<createdBy>marra</createdBy>
+<createdTime>2023-05-26 12:43:35 UTC</createdTime>
+<ownerDesignName>GS - Data Science</ownerDesignName>
+<engineerTo>
+<item key="B0077169-6643-432B-F209-C918C5DCCA2F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>12D7C1E7-02A2-D8D4-D7E3-9320C704C02B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

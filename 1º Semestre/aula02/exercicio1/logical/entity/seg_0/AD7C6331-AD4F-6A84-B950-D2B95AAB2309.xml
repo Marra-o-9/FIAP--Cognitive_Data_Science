@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AD7C6331-AD4F-6A84-B950-D2B95AAB2309" name="CURSOS">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 11:07:33 UTC</createdTime>
+<ownerDesignName>exercicio1</ownerDesignName>
+<engineerTo>
+<item key="791AA058-45E9-AD41-598F-F9BD483B805B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_curso" id="D3BDC664-0ACF-642F-F9C2-F25D3BBC21E5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 11:07:59 UTC</createdTime>
+<ownerDesignName>exercicio1</ownerDesignName>
+<engineerTo>
+<item key="791AA058-45E9-AD41-598F-F9BD483B805B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="4938B431-23A9-1C95-F2DE-18FBA57C69CF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 11:08:22 UTC</createdTime>
+<ownerDesignName>exercicio1</ownerDesignName>
+<engineerTo>
+<item key="791AA058-45E9-AD41-598F-F9BD483B805B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preco" id="0C0CDCDF-28C5-D613-1506-DDAE94CE39C5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 11:11:07 UTC</createdTime>
+<ownerDesignName>exercicio1</ownerDesignName>
+<engineerTo>
+<item key="791AA058-45E9-AD41-598F-F9BD483B805B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="90043AA3-68B2-4017-BBB3-B77E33BD4588" name="CURSOS PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 11:10:40 UTC</createdTime>
+<ownerDesignName>exercicio1</ownerDesignName>
+<engineerTo>
+<item key="791AA058-45E9-AD41-598F-F9BD483B805B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D3BDC664-0ACF-642F-F9C2-F25D3BBC21E5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

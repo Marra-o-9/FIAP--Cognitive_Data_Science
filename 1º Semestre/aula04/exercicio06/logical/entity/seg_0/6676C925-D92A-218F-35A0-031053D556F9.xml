@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6676C925-D92A-218F-35A0-031053D556F9" name="PEDIDOS">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-09 11:28:36 UTC</createdTime>
+<ownerDesignName>exercicio06</ownerDesignName>
+<engineerTo>
+<item key="E6DC1571-D147-FD07-F38B-C57A73CEBD68" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_pedido" id="8A0CC417-89D0-59A4-B9BC-FA308B938220">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-09 11:29:02 UTC</createdTime>
+<ownerDesignName>exercicio06</ownerDesignName>
+<engineerTo>
+<item key="E6DC1571-D147-FD07-F38B-C57A73CEBD68" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="C38535EC-D76C-D9DA-91BD-1ED1C25C41EF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-09 11:55:24 UTC</createdTime>
+<generatorID>87653789-220D-1C3A-0808-813B31D810B4</generatorID>
+<ownerDesignName>exercicio06</ownerDesignName>
+<engineerTo>
+<item key="E6DC1571-D147-FD07-F38B-C57A73CEBD68" value="true"/>
+</engineerTo>
+<referedAttribute>7AC469CF-52D8-85F7-35C7-E1733C95B879</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="F1A3DB22-047F-BC38-1E0F-876CA9ADC181">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-09 12:24:15 UTC</createdTime>
+<ownerDesignName>exercicio06</ownerDesignName>
+<engineerTo>
+<item key="E6DC1571-D147-FD07-F38B-C57A73CEBD68" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E325B3D9-CAAF-B148-BD5B-CB9EF01D13EF" name="PEDIDOS PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-09 11:29:12 UTC</createdTime>
+<ownerDesignName>exercicio06</ownerDesignName>
+<engineerTo>
+<item key="E6DC1571-D147-FD07-F38B-C57A73CEBD68" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8A0CC417-89D0-59A4-B9BC-FA308B938220</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="11243B60-F6D6-B4F4-5F9E-45AC9DE141D5" name="CURSOS_INSTRUTORES">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 11:51:12 UTC</createdTime>
+<ownerDesignName>exercicio04</ownerDesignName>
+<engineerTo>
+<item key="791AA058-45E9-AD41-598F-F9BD483B805B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_instrutor" id="6EFB23AE-34F9-CFBF-82B1-AB2308214AE1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 11:54:53 UTC</createdTime>
+<generatorID>81A4A059-B1DA-D58F-D7B2-2C6B0F157995</generatorID>
+<ownerDesignName>exercicio04</ownerDesignName>
+<engineerTo>
+<item key="791AA058-45E9-AD41-598F-F9BD483B805B" value="true"/>
+</engineerTo>
+<referedAttribute>11BEB0D7-3A47-C4B3-847B-28789452DAF8</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_curso" id="52AFBFEC-B6C9-30A5-0669-503A4A5D9A93">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 11:55:03 UTC</createdTime>
+<generatorID>37390F37-E1A5-4DF4-0670-3FD1844E182A</generatorID>
+<ownerDesignName>exercicio04</ownerDesignName>
+<engineerTo>
+<item key="791AA058-45E9-AD41-598F-F9BD483B805B" value="true"/>
+</engineerTo>
+<referedAttribute>D3BDC664-0ACF-642F-F9C2-F25D3BBC21E5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="12B44B13-A890-F5EF-C9C8-36961B33039A" name="CURSOS_INSTRUTORES PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 11:55:17 UTC</createdTime>
+<ownerDesignName>exercicio04</ownerDesignName>
+<engineerTo>
+<item key="791AA058-45E9-AD41-598F-F9BD483B805B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6EFB23AE-34F9-CFBF-82B1-AB2308214AE1</attributeRef>
+<attributeRef>52AFBFEC-B6C9-30A5-0669-503A4A5D9A93</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

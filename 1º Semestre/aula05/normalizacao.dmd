@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="normalizacao" id="8C652447-2C4C-392B-793C-151F6D8F11B4" version="3.5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 11:28:42 UTC</createdTime>
+<ownerDesignName>normalizacao</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8C652447-2C4C-392B-793C-151F6D8F11B4</designId>
+</OSDM_Design>

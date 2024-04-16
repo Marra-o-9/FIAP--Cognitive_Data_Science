@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CED16271-1CB2-C4C0-FCE6-BDE6211F990D" name="GLOBAIS">
+<createdBy>marra</createdBy>
+<createdTime>2023-06-26 22:37:18 UTC</createdTime>
+<ownerDesignName>Diagrama Challenge</ownerDesignName>
+<engineerTo>
+<item key="D578EA73-6587-C25B-19A4-A6A1D2623CBF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_global" id="33DD2FAD-B473-37BC-9AA7-CD18D9A024F9">
+<createdBy>marra</createdBy>
+<createdTime>2023-06-26 22:37:47 UTC</createdTime>
+<ownerDesignName>Diagrama Challenge</ownerDesignName>
+<engineerTo>
+<item key="D578EA73-6587-C25B-19A4-A6A1D2623CBF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="agricultura" id="1F562AD9-BD4C-7B7F-3F7E-337C3D6368F9">
+<createdBy>marra</createdBy>
+<createdTime>2023-06-26 22:38:57 UTC</createdTime>
+<ownerDesignName>Diagrama Challenge</ownerDesignName>
+<engineerTo>
+<item key="D578EA73-6587-C25B-19A4-A6A1D2623CBF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10000</dataTypeSize>
+<ownDataTypeParameters>10000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pecuaria" id="42890B1C-FE68-0CB2-00FD-149413D24202">
+<createdBy>marra</createdBy>
+<createdTime>2023-06-26 22:39:11 UTC</createdTime>
+<ownerDesignName>Diagrama Challenge</ownerDesignName>
+<engineerTo>
+<item key="D578EA73-6587-C25B-19A4-A6A1D2623CBF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10000</dataTypeSize>
+<ownDataTypeParameters>10000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="industria" id="6BB1E183-87DC-FBE7-7DB6-FCF253C947F0">
+<createdBy>marra</createdBy>
+<createdTime>2023-06-26 22:39:24 UTC</createdTime>
+<ownerDesignName>Diagrama Challenge</ownerDesignName>
+<engineerTo>
+<item key="D578EA73-6587-C25B-19A4-A6A1D2623CBF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10000</dataTypeSize>
+<ownDataTypeParameters>10000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="setor_servico" id="198B5BC2-8A61-AD45-548E-7333160E2C05">
+<createdBy>marra</createdBy>
+<createdTime>2023-06-26 22:39:34 UTC</createdTime>
+<ownerDesignName>Diagrama Challenge</ownerDesignName>
+<engineerTo>
+<item key="D578EA73-6587-C25B-19A4-A6A1D2623CBF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10000</dataTypeSize>
+<ownDataTypeParameters>10000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="recurso_nat" id="F079FAF9-AC61-EF3F-444D-F5EAC374675B">
+<createdBy>marra</createdBy>
+<createdTime>2023-06-26 22:40:28 UTC</createdTime>
+<ownerDesignName>Diagrama Challenge</ownerDesignName>
+<engineerTo>
+<item key="D578EA73-6587-C25B-19A4-A6A1D2623CBF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10000</dataTypeSize>
+<ownDataTypeParameters>10000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tech_inovacao" id="206A96BB-0E0F-9EC0-4EEF-12354A234F4F">
+<createdBy>marra</createdBy>
+<createdTime>2023-06-26 22:40:32 UTC</createdTime>
+<ownerDesignName>Diagrama Challenge</ownerDesignName>
+<engineerTo>
+<item key="D578EA73-6587-C25B-19A4-A6A1D2623CBF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10000</dataTypeSize>
+<ownDataTypeParameters>10000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="servico_fin" id="E66D3F1B-BFF1-CFB1-DD7B-DAF01A57E260">
+<createdBy>marra</createdBy>
+<createdTime>2023-06-26 22:41:04 UTC</createdTime>
+<ownerDesignName>Diagrama Challenge</ownerDesignName>
+<engineerTo>
+<item key="D578EA73-6587-C25B-19A4-A6A1D2623CBF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10000</dataTypeSize>
+<ownDataTypeParameters>10000,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="636A3934-E9DD-729E-4E37-CBE5B6580952" name="GLOBAIS PK">
+<createdBy>marra</createdBy>
+<createdTime>2023-06-26 22:38:44 UTC</createdTime>
+<ownerDesignName>Diagrama Challenge</ownerDesignName>
+<engineerTo>
+<item key="D578EA73-6587-C25B-19A4-A6A1D2623CBF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>33DD2FAD-B473-37BC-9AA7-CD18D9A024F9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

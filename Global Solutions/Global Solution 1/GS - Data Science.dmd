@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="GS - Data Science" id="6BBF194F-1319-FC7A-93F0-2C57634F593C" version="3.5">
+<createdBy>marra</createdBy>
+<createdTime>2023-05-26 12:34:19 UTC</createdTime>
+<ownerDesignName>GS - Data Science</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6BBF194F-1319-FC7A-93F0-2C57634F593C</designId>
+</OSDM_Design>

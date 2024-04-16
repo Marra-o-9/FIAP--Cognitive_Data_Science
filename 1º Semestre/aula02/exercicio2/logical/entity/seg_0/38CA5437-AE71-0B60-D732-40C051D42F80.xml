@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="38CA5437-AE71-0B60-D732-40C051D42F80" name="EMPREGADOS">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 12:09:48 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="FF3D52FE-FF05-F680-B271-917F3E572230" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_emp" id="6E712C47-E2AC-DF3E-52F3-BCA9C1077B46">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 12:09:58 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="FF3D52FE-FF05-F680-B271-917F3E572230" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="48001388-1897-588B-9313-E945A60A5D31">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 12:10:08 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="FF3D52FE-FF05-F680-B271-917F3E572230" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sobrenome" id="8EB8031D-9460-B388-2861-881CF95889A2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 12:10:16 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="FF3D52FE-FF05-F680-B271-917F3E572230" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salario" id="7A9EAD98-C524-B707-1778-35AC8DBCD0FD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 12:10:26 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="FF3D52FE-FF05-F680-B271-917F3E572230" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_depto" id="45DA3CCE-F75C-1400-41E2-E847A73F8F13">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 12:12:54 UTC</createdTime>
+<generatorID>9B2601D2-51FA-B3E3-07C6-0C1FD8F4D1FE</generatorID>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="FF3D52FE-FF05-F680-B271-917F3E572230" value="true"/>
+</engineerTo>
+<referedAttribute>AC718020-0C27-6BAF-338F-45A894AC7453</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3C5CC706-8B03-5B08-D56C-37CA58DF5CC2" name="EMPREGADOS PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 12:10:05 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="FF3D52FE-FF05-F680-B271-917F3E572230" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6E712C47-E2AC-DF3E-52F3-BCA9C1077B46</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

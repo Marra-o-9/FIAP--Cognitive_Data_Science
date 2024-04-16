@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6E38F45A-47FD-B425-097B-93BFA5D0C46C" name="CAUSALIDADES">
+<createdBy>marra</createdBy>
+<createdTime>2023-06-26 22:34:31 UTC</createdTime>
+<ownerDesignName>Diagrama Challenge</ownerDesignName>
+<engineerTo>
+<item key="D578EA73-6587-C25B-19A4-A6A1D2623CBF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_causalidade" id="3089A301-D6E2-FB72-BFB8-5978FFF89BFB">
+<createdBy>marra</createdBy>
+<createdTime>2023-06-26 22:34:47 UTC</createdTime>
+<ownerDesignName>Diagrama Challenge</ownerDesignName>
+<engineerTo>
+<item key="D578EA73-6587-C25B-19A4-A6A1D2623CBF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_nacional" id="D3955486-7E69-D47E-2582-70885C8934C0">
+<createdBy>marra</createdBy>
+<createdTime>2023-06-26 23:03:13 UTC</createdTime>
+<generatorID>C24A4BC3-BB68-144D-0227-DAC644274648</generatorID>
+<ownerDesignName>Diagrama Challenge</ownerDesignName>
+<engineerTo>
+<item key="D578EA73-6587-C25B-19A4-A6A1D2623CBF" value="true"/>
+</engineerTo>
+<referedAttribute>09989F1D-DF51-C0BF-3B6D-428400C1D96E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_regional" id="8CA8BE2E-9372-C065-FAD4-5773CD750755">
+<createdBy>marra</createdBy>
+<createdTime>2023-06-26 23:03:24 UTC</createdTime>
+<generatorID>37DB19B3-9435-DF16-1FBF-7E7991AAB990</generatorID>
+<ownerDesignName>Diagrama Challenge</ownerDesignName>
+<engineerTo>
+<item key="D578EA73-6587-C25B-19A4-A6A1D2623CBF" value="true"/>
+</engineerTo>
+<referedAttribute>4CB19B6C-83B1-3A6A-D8FD-CCE163EFBD46</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_global" id="DA01EE3F-22EB-3EB6-F919-698558B4C0A9">
+<createdBy>marra</createdBy>
+<createdTime>2023-06-26 23:03:30 UTC</createdTime>
+<generatorID>F53DDFDD-F13E-BE70-6DE0-68C162A6AFBE</generatorID>
+<ownerDesignName>Diagrama Challenge</ownerDesignName>
+<engineerTo>
+<item key="D578EA73-6587-C25B-19A4-A6A1D2623CBF" value="true"/>
+</engineerTo>
+<referedAttribute>33DD2FAD-B473-37BC-9AA7-CD18D9A024F9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D2AE4F23-DA8E-D507-858E-133127183D31" name="CAUSALIDADES PK">
+<createdBy>marra</createdBy>
+<createdTime>2023-06-26 22:36:04 UTC</createdTime>
+<ownerDesignName>Diagrama Challenge</ownerDesignName>
+<engineerTo>
+<item key="D578EA73-6587-C25B-19A4-A6A1D2623CBF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3089A301-D6E2-FB72-BFB8-5978FFF89BFB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

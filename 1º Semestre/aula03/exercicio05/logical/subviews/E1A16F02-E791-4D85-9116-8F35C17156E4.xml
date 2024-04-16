@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="E1A16F02-E791-4D85-9116-8F35C17156E4">
+<createdBy>logonrmlocal</createdBy>
+<modifiedBy>logonrmlocal</modifiedBy>
+<createdTime>2023-04-18 11:58:16 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="0DF988C0-16BB-A161-928E-ACE716105B51" otype="Entity" vid="11566DEF-E1CC-C144-6D9A-BE3A26C20D2B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="31" y="48" width="109" height="82"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="153D5546-EF68-2275-0FD9-A46958AC560F" otype="Note" vid="FB6DC4B8-2EE8-0154-B28E-0A6C01B97984">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="17" y="318" width="143" height="105"/>
+<comment>EMPRESTIMOS é uma entidade fraquíssima, depende muito de outras.
+
+data_devol é opcional, pois não necessariamente você sabe quando será devolvido.
+</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="BF678796-79CB-EBB6-CBBC-E5F40A6A3C2B" otype="Entity" vid="7F4C5B64-336B-9E09-4893-CEEE0E8992B4">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="225" y="234" width="111" height="68"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="D42FF86E-D575-F446-579A-1FAA7045ACEB" otype="Entity" vid="50426DEA-9F16-4683-C053-348407155943">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="30" y="234" width="111" height="68"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="D515AB37-DFF4-052E-6727-C3BF58E6AA63" otype="Entity" vid="85C01C4A-36AB-99F7-C6FE-5D3E809DB8FC">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="228" y="59" width="109" height="68"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="E09E3EC5-46C0-B220-0F02-B87504478FCF" otype="Note" vid="0EC23D86-C538-FA6A-436A-38F237536D9C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="187" y="327" width="124" height="92"/>
+<comment>Lembrar que a entidade EMPRESTIMOS possui 5 atributos, isso por causa das 2 chaves estrangeiras representadas por &quot;F&quot;.</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="FF61DFD8-67C5-8C65-1277-259F13816AF2" otype="Note" vid="1C0CB6F8-AE75-6422-0EB9-ED411910EC06">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="341" y="335" width="119" height="79"/>
+<comment>Chave primária composta é dada pela relação de um para muitos identificada (com tracinho).</comment>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="1FE7AA67-A941-0263-D7A8-A428C69D8848" otype="Relation" vid_source="7F4C5B64-336B-9E09-4893-CEEE0E8992B4" vid_target="50426DEA-9F16-4683-C053-348407155943">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="225" y="268"/>
+<point x="141" y="268"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="E74C2513-E588-50FB-349B-EFA8BBAFBDAD" otype="Relation" vid_source="7F4C5B64-336B-9E09-4893-CEEE0E8992B4" vid_target="85C01C4A-36AB-99F7-C6FE-5D3E809DB8FC">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="282" y="234"/>
+<point x="282" y="127"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="F7DDC925-1EF4-F94F-BF6E-6D6AF39B54B9" otype="Relation" vid_source="11566DEF-E1CC-C144-6D9A-BE3A26C20D2B" vid_target="50426DEA-9F16-4683-C053-348407155943">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="85" y="130"/>
+<point x="85" y="234"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

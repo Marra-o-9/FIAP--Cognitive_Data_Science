@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AF38B502-D962-7AB4-3218-5BA39B8A2D31" name="DEPARTAMENTOS">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 12:10:55 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="FF3D52FE-FF05-F680-B271-917F3E572230" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_depto" id="AC718020-0C27-6BAF-338F-45A894AC7453">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 12:11:07 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="FF3D52FE-FF05-F680-B271-917F3E572230" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="B4D2C1E9-1799-CEA8-0CC2-8F9C2DEF5870">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 12:11:18 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="FF3D52FE-FF05-F680-B271-917F3E572230" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="88B1CAB7-3BF6-D11C-37DD-F7EF2DA63956" name="DEPARTAMENTOS PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 12:11:17 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="FF3D52FE-FF05-F680-B271-917F3E572230" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AC718020-0C27-6BAF-338F-45A894AC7453</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

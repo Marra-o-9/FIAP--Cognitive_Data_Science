@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Diagrama Challenge" id="A2B8159C-1227-B4F2-9C8B-1F11B47B4C7B" version="3.5">
+<createdBy>marra</createdBy>
+<createdTime>2023-06-26 22:29:14 UTC</createdTime>
+<ownerDesignName>Diagrama Challenge</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A2B8159C-1227-B4F2-9C8B-1F11B47B4C7B</designId>
+</OSDM_Design>

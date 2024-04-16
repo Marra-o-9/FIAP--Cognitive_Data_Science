@@ -1,0 +1,20 @@
+Cada empregado deve ser alocado em somente um cargo.
+Cada cargo pode ter um ou mais funcionários.
+
+Cada histórico de trabalho deve ter somente um cargo.
+Cada cargo pode ter um ou mais históricos de trabalho.
+
+Cada funcionário pode ser alocado para somente um departamento.
+Cada departamento pode ter um ou mais funcionários.
+
+Cada funcionário chefe pode ser responsável por um ou mais departamentos.
+Cada departamento pode ser gerenciado por somente um funcionário chefe.
+
+Cada país pode ser localizado em somente uma região.
+Cada região pode conter um ou mais países.
+
+Cada localidade pode estar em somente um país.
+Cada país pode conter uma ou mais regiões.
+
+Cada departamento pode estar em somente uma localidade.
+Cada localidade pode conter um ou mais departamentos.

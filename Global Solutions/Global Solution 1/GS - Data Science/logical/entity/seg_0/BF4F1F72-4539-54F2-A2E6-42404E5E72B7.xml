@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BF4F1F72-4539-54F2-A2E6-42404E5E72B7" name="FORNECEDORES">
+<createdBy>marra</createdBy>
+<createdTime>2023-05-26 12:36:41 UTC</createdTime>
+<ownerDesignName>GS - Data Science</ownerDesignName>
+<engineerTo>
+<item key="B0077169-6643-432B-F209-C918C5DCCA2F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_fornecedores" id="F7A69276-0658-B34D-1565-1AEFADF575F8">
+<createdBy>marra</createdBy>
+<createdTime>2023-05-26 12:36:56 UTC</createdTime>
+<ownerDesignName>GS - Data Science</ownerDesignName>
+<engineerTo>
+<item key="B0077169-6643-432B-F209-C918C5DCCA2F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pri_nome" id="4342BE5B-27DE-1D3A-C2F2-C29BCEDC8099">
+<createdBy>marra</createdBy>
+<createdTime>2023-05-26 12:37:07 UTC</createdTime>
+<ownerDesignName>GS - Data Science</ownerDesignName>
+<engineerTo>
+<item key="B0077169-6643-432B-F209-C918C5DCCA2F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_meio" id="39E1F931-57E9-4498-AFE0-1E4B1C4941FA">
+<createdBy>marra</createdBy>
+<createdTime>2023-05-26 12:37:15 UTC</createdTime>
+<ownerDesignName>GS - Data Science</ownerDesignName>
+<engineerTo>
+<item key="B0077169-6643-432B-F209-C918C5DCCA2F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ult_nome" id="1C7ED19F-5119-0C68-3699-0DF76C540A39">
+<createdBy>marra</createdBy>
+<createdTime>2023-05-26 12:37:21 UTC</createdTime>
+<ownerDesignName>GS - Data Science</ownerDesignName>
+<engineerTo>
+<item key="B0077169-6643-432B-F209-C918C5DCCA2F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="982B87A1-2A2A-2E17-93DC-A6291004BE2C">
+<createdBy>marra</createdBy>
+<createdTime>2023-05-26 12:37:29 UTC</createdTime>
+<ownerDesignName>GS - Data Science</ownerDesignName>
+<engineerTo>
+<item key="B0077169-6643-432B-F209-C918C5DCCA2F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="4F35B8D5-0CE4-D183-E83D-8218DC75ABDB">
+<createdBy>marra</createdBy>
+<createdTime>2023-05-26 12:37:43 UTC</createdTime>
+<ownerDesignName>GS - Data Science</ownerDesignName>
+<engineerTo>
+<item key="B0077169-6643-432B-F209-C918C5DCCA2F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="694B6CC6-60A4-34BE-4338-EB7A61906368" name="FORNECEDORES PK">
+<createdBy>marra</createdBy>
+<createdTime>2023-05-26 12:37:05 UTC</createdTime>
+<ownerDesignName>GS - Data Science</ownerDesignName>
+<engineerTo>
+<item key="B0077169-6643-432B-F209-C918C5DCCA2F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F7A69276-0658-B34D-1565-1AEFADF575F8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

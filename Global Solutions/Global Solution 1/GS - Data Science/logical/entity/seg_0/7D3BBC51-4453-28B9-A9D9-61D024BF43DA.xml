@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7D3BBC51-4453-28B9-A9D9-61D024BF43DA" name="PRODUTOS">
+<createdBy>marra</createdBy>
+<createdTime>2023-05-26 12:38:00 UTC</createdTime>
+<ownerDesignName>GS - Data Science</ownerDesignName>
+<engineerTo>
+<item key="B0077169-6643-432B-F209-C918C5DCCA2F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_produto" id="57E935C0-AFBE-8CCD-9836-1C166653E03B">
+<createdBy>marra</createdBy>
+<createdTime>2023-05-26 12:38:07 UTC</createdTime>
+<ownerDesignName>GS - Data Science</ownerDesignName>
+<engineerTo>
+<item key="B0077169-6643-432B-F209-C918C5DCCA2F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="EA4098A7-4D9D-95CA-8250-34602F734641">
+<createdBy>marra</createdBy>
+<createdTime>2023-05-26 12:38:17 UTC</createdTime>
+<ownerDesignName>GS - Data Science</ownerDesignName>
+<engineerTo>
+<item key="B0077169-6643-432B-F209-C918C5DCCA2F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="3E7A9820-4B44-6485-9107-018C36BF853F">
+<createdBy>marra</createdBy>
+<createdTime>2023-05-26 12:38:28 UTC</createdTime>
+<ownerDesignName>GS - Data Science</ownerDesignName>
+<engineerTo>
+<item key="B0077169-6643-432B-F209-C918C5DCCA2F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_fornecedores" id="001876B9-B54B-B2F5-1213-959AD324862B">
+<createdBy>marra</createdBy>
+<createdTime>2023-05-26 12:52:37 UTC</createdTime>
+<generatorID>57C7CF2D-2E28-64C8-658D-D2608841FB08</generatorID>
+<ownerDesignName>GS - Data Science</ownerDesignName>
+<engineerTo>
+<item key="B0077169-6643-432B-F209-C918C5DCCA2F" value="true"/>
+</engineerTo>
+<referedAttribute>F7A69276-0658-B34D-1565-1AEFADF575F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_categoria" id="4DB8EAB7-3D23-2C84-7A83-F9E62FB0DA1A">
+<createdBy>marra</createdBy>
+<createdTime>2023-05-26 12:55:07 UTC</createdTime>
+<generatorID>1F94B76E-BF0A-777C-9985-01B0DEA00F84</generatorID>
+<ownerDesignName>GS - Data Science</ownerDesignName>
+<engineerTo>
+<item key="B0077169-6643-432B-F209-C918C5DCCA2F" value="true"/>
+</engineerTo>
+<referedAttribute>E391E576-3338-DB72-D230-E987FB24DC6C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_desperdicio" id="2CC4B368-1F60-CEC0-C984-25B2C0FDEA14">
+<createdBy>marra</createdBy>
+<createdTime>2023-05-26 13:02:28 UTC</createdTime>
+<generatorID>BEFA5E7C-E318-C145-7E69-DD6D838A42F0</generatorID>
+<ownerDesignName>GS - Data Science</ownerDesignName>
+<engineerTo>
+<item key="B0077169-6643-432B-F209-C918C5DCCA2F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>EA2FB75E-6B1F-23FA-1B6E-120BE69CB0B5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D6FB08FB-8732-558F-3A8C-4E4A4B35FF91" name="PRODUTOS PK">
+<createdBy>marra</createdBy>
+<createdTime>2023-05-26 12:38:15 UTC</createdTime>
+<ownerDesignName>GS - Data Science</ownerDesignName>
+<engineerTo>
+<item key="B0077169-6643-432B-F209-C918C5DCCA2F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>57E935C0-AFBE-8CCD-9836-1C166653E03B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

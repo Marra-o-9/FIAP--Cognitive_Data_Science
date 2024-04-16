@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="72E45FCC-1AF7-8CF0-15F8-AD9261044F50" name="CURSOS_REALIZADOS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="DBAA79A6-8B5E-2252-76C8-C03476CDFEB3" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="75E29615-6F31-713A-89E8-088832389C91" name="CERTIFICACOES" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="DBAA79A6-8B5E-2252-76C8-C03476CDFEB3" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="AD7C6331-AD4F-6A84-B950-D2B95AAB2309" name="CURSOS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="DBAA79A6-8B5E-2252-76C8-C03476CDFEB3" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="D0BAC104-FF48-7018-BF53-AEA09F5C4271" name="INSTRUTORES" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="DBAA79A6-8B5E-2252-76C8-C03476CDFEB3" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="E8730D9D-E37B-CE1B-5003-67E76ACE1BAE" name="ALUNOS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="DBAA79A6-8B5E-2252-76C8-C03476CDFEB3" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="FC902E1E-9375-3077-ADF6-A3D144E4A10D" name="DURACOES" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="DBAA79A6-8B5E-2252-76C8-C03476CDFEB3" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
